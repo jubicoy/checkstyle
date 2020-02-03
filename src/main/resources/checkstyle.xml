@@ -182,11 +182,6 @@
                      value="GenericWhitespace ''{0}'' is not preceded with whitespace."/>
         </module>
         <module name="Indentation">
-            <!--
-                Severity reduced to warning due to a checkstyle bug.
-                https://github.com/checkstyle/checkstyle/issues/6210
-            -->
-            <property name="severity" value="warning"/>
             <property name="basicOffset" value="4"/>
             <property name="braceAdjustment" value="0"/>
             <property name="caseIndent" value="4"/>
