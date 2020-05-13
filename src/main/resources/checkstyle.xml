@@ -250,5 +250,6 @@
             <property name="exceptionVariableName" value="expected|ignored"/>
         </module>
         <module name="CommentsIndentation"/>
+        <module name="UnusedImports"/>
     </module>
 </module>
